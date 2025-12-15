@@ -23,7 +23,7 @@
 
 #### 1.1.3 技术演进分类
 
-<img src="C:\Users\tingting\AppData\Roaming\Typora\typora-user-images\image-20251215144827510.png" alt="image-20251215144827510" style="zoom:50%;" />
+<img src="https://github.com/DorriG/all-in-rag-notes/blob/main/Chapter1/pic/classification.png" alt="image-20251215144827510" style="zoom:50%;" />
 
 | 初级 RAG（Naive RAG） | 高级 RAG（Advanced RAG）                 | 模块化 RAG（Modular RAG）                                    |                                                              |
 | --------------------- | ---------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -283,5 +283,6 @@ usage_metadata={
    print(query_engine.query("文中举了哪些例子?"))
 
    ```
+
 
 
