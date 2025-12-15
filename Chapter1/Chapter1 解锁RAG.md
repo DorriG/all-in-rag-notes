@@ -12,7 +12,7 @@
 
 #### 1.1.2 技术原理
 
-<img src="https://github.com/DorriG/all-in-rag-notes/edit/main/Chapter1/pic/rag.png" style="zoom:50%;" />
+<img src="[https://github.com/DorriG/all-in-rag-notes/edit/main/Chapter1/pic/rag.png](https://github.com/DorriG/all-in-rag-notes/blob/main/Chapter1/pic/rag.png)" style="zoom:50%;" />
 
 1.  **检索阶段：寻找”非参数化知识“**
    - **知识向量化：** **Embedding Model**将外部知识库编码为向量索引(Index)，存入**向量数据库**。
@@ -283,3 +283,4 @@ usage_metadata={
    print(query_engine.query("文中举了哪些例子?"))
 
    ```
+
