@@ -42,7 +42,7 @@
 
 优先选择对模型改动最小、成本最低的方案，技术路径选择遵循的顺序：**提示词工程--->检索增强生成--->微调**。
 
-<img src="C:\Users\tingting\AppData\Roaming\Typora\typora-user-images\image-20251215145754256.png" alt="image-20251215145754256" style="zoom:50%;" />
+<img src="https://github.com/DorriG/all-in-rag-notes/blob/main/Chapter1/pic/prompvsfine-turning.png" alt="image-20251215145754256" style="zoom:50%;" />
 
 **LLM Optimization：** 对模型本身进行多大程度的修改，从左到右，优化的程度越来越深，提示词工程完全不改变模型权重，微调会直接修改模型参数。
 
@@ -283,6 +283,7 @@ usage_metadata={
    print(query_engine.query("文中举了哪些例子?"))
 
    ```
+
 
 
 
